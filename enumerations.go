@@ -649,3 +649,9 @@ const (
 	CSpywareOrMalware      ContentCategory = "IAB26-3"
 	CCopyrightInfringement ContentCategory = "IAB26-4"
 )
+
+type Linearity uint
+const (
+  LinearityInStream  Linearity = 1
+  LinearityOverlay Linearity = 2
+)

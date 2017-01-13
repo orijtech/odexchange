@@ -133,7 +133,7 @@ type Audio struct {
 	Height int `json:"h"`
 
 	StartDelay int `json:"startdelay"`
-	Linearity  int `json:"linearity"`
+	Linearity  Linearity `json:"linearity"`
 
 	Skip NumericBool `json:"skip"`
 
@@ -195,7 +195,7 @@ type Video struct {
 	Height int `json:"h"`
 
 	StartDelay int `json:"startdelay"`
-	Linearity  int `json:"linearity"`
+	Linearity  Linearity `json:"linearity"`
 
 	Skip NumericBool `json:"skip"`
 
