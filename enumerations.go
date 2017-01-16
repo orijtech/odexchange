@@ -651,7 +651,8 @@ const (
 )
 
 type Linearity uint
+
 const (
-  LinearityInStream  Linearity = 1
-  LinearityOverlay Linearity = 2
+	LinearityInStream Linearity = 1
+	LinearityOverlay  Linearity = 2
 )
